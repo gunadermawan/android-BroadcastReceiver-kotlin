@@ -11,7 +11,8 @@
         android:theme="@style/Theme.MyBroadcastReceiver">
         <activity
             android:name=".SmsReceiverActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.Broadcast.SmsReceiver"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
