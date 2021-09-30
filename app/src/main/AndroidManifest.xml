@@ -9,10 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyBroadcastReceiver">
+        <receiver
+            android:name=".SmsReceiver"
+            android:enabled="true"
+            android:exported="true"></receiver>
+
         <activity
             android:name=".SmsReceiverActivity"
             android:exported="true"
-            android:theme="@style/Theme.Broadcast.SmsReceiver"/>
+            android:theme="@style/Theme.Broadcast.SmsReceiver" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
